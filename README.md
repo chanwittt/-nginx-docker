@@ -7,4 +7,4 @@
 docker build --no-cache -t nginx-plus:centos8 -f Dockerfile.nginx.centos8 .
 
 ### Run
-docker run -it -d -p 80:80 --name nginx-plus1 nginx-plus:centos8
+docker run -it -d -p 80:80 --name nginx-plus1 nginx-plus:centos8 /bin/bash
